@@ -19,7 +19,7 @@ public class TestApp {
 			System.setProperty("webdriver.ie.driver","D:\\Selenium jars\\chromedriver_win32\\IEDriverServer.exe");
 			 WebDriver driver = new InternetExplorerDriver(cap);
 			driver.get("https://google.com");
-				
+				System.out.println("new branch code");
 			
 		}
 
