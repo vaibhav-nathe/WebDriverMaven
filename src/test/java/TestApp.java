@@ -20,7 +20,7 @@ public class TestApp {
 			 WebDriver driver = new InternetExplorerDriver(cap);
 			driver.get("https://google.com");
 				System.out.println("new branch code");
-			
+			//git remote add originto https://github.com/vaibhav-nathe/WebDriverMaven.git
 		}
 
 		}
