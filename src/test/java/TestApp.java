@@ -10,7 +10,7 @@ public class TestApp {
 	public static WebDriver driver;
 		@Test
 			public void test() {
-			Assert.assertEquals("", "");
+			Assert.assertNotEquals("", "");
 			DesiredCapabilities cap = DesiredCapabilities.internetExplorer();
 			cap.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
 			cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
