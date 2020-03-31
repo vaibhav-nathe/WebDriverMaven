@@ -19,8 +19,9 @@ public class TestApp {
 			System.setProperty("webdriver.ie.driver","D:\\Selenium jars\\chromedriver_win32\\IEDriverServer.exe");
 			 WebDriver driver = new InternetExplorerDriver(cap);
 			driver.get("https://google.com");
-				System.out.println("new branch code");
+				System.out.println("code executed successfully");
 			//git remote add originto https://github.com/vaibhav-nathe/WebDriverMaven.git
+			
 		}
 
 		}
