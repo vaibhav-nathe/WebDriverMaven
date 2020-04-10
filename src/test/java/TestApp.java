@@ -16,8 +16,9 @@ public class TestApp {
 			cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 			cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 			//System.setProperty("webdriver.ie.driver","C:\\Users\\Lenovo\\Downloads\\chromedriver_win32\\IEDriverServer.exe");
-			System.setProperty("webdriver.ie.driver","D:\\Selenium jars\\chromedriver_win32\\IEDriverServer.exe");
-			 WebDriver driver = new InternetExplorerDriver(cap);
+			//System.setProperty("webdriver..driver","D:\\Selenium jars\\chromedriver_win32\\IEDriverServer.exe");
+			System.setProperty("webdriver.chrome.driver","./chromedriver.exe");
+			 WebDriver driver = new ChromeDriver(cap);
 			driver.get("https://google.com");
 				
 			
