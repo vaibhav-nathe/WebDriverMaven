@@ -13,7 +13,7 @@ public class TestApp {
 			public void test() {
 			Assert.assertEquals("", "");
 			DesiredCapabilities cap = DesiredCapabilities.chrome();
-			DesiredCapabilities cap = DesiredCapabilities.internetExplorer();
+			//DesiredCapabilities cap = DesiredCapabilities.internetExplorer();
 			//cap.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
 			//cap.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
 			cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
